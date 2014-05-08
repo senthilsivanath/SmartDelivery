@@ -8,6 +8,6 @@ namespace Tesco.Com.Web.Core.BusinessLogic
 {
     public class CommonBL
     {
-         
+          
     }
 }
