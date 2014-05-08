@@ -1,1 +1,2 @@
 2014-05-07 20:40:44,035 [5] ERROR Tesco.Com.Web.SmartDelivery.Controllers.HomeController [(null)] - This is first message from log
+2014-05-07 22:11:22,503 [5] ERROR Tesco.Com.Web.SmartDelivery.Controllers.HomeController [(null)] - This is first message from log

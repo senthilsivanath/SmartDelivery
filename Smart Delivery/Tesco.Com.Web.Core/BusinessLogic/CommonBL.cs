@@ -6,8 +6,8 @@ using Tesco.Com.Web.Core.Models;
 
 namespace Tesco.Com.Web.Core.BusinessLogic
 {
-    public class CommonBL
+    public class CommonBL 
     {
-           
+            
     }
 }
