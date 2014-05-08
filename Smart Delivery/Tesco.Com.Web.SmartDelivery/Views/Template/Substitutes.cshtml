@@ -1,0 +1,25 @@
+﻿@using Tesco.Com.Web.SmartDelivery.Resources
+@{
+    ViewBag.Title = "";
+    Layout = "";
+}
+<div id="scrollview-container">
+    <div id="scrollview-header">
+        <h1 id="hSubstituteId">
+            @Substitutes.OrderHeading
+        </h1>
+    </div>
+    <div id="scrollview-content" class="yui3-scrollview-loading">
+        <table id="tblSubstitute">
+        </table>
+        <label id='lblQuantity' style='display: none'>@Substitutes.Quantity</label>
+        <label id='lblSubstitute' style='display: none'>@Substitutes.Substitute</label>
+    </div>
+</div>
+<div class='controls-group toppadding'>
+    <span class='gridspanleft'>
+        <input type="button" id="btnSave" class="btn-primary" value="@Substitutes.SaveClose" />
+    </span><span>
+        <input type="button" id="btnCancel" class="btn-primary" value="@Substitutes.Cancel" />
+    </span>
+</div>

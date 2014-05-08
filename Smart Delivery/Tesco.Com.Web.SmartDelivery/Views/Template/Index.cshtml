@@ -1,0 +1,24 @@
+﻿@using Tesco.Com.Web.SmartDelivery.Resources
+
+@{
+    Layout = "";
+    ViewBag.Title = "Index";
+}
+<div class="center">
+    
+    <img class='icon' src='@Url.Content("~/images/tesco-logo.gif")' alt="Tesco" />
+    <h2>@VanTrip.Heading</h2>
+</div>
+<div id="icons">
+			<a class="box " href="/vantrip"> 
+				<img class='icon' src='@Url.Content("~/images/delivery-icon.png")' alt="Delivery" />
+			</a>
+			<a class="box " href="/training">
+				<img class='icon' src='@Url.Content("~/images/training-icon.png")' alt="Training" />
+			</a>
+</div>
+<div id="admin" class="both box">
+    <a href="/admin">
+    <img src="/images/settings-icon.png" alt="Admin User" />
+    </a>
+</div>

@@ -1,0 +1,36 @@
+﻿@using Tesco.Com.Web.SmartDelivery.Resources
+
+<div class="center">
+    <u><span class="OrderHeading">@OrderDetail.Order</span><span id="strOrderNumber" class="OrderHeading" ></span></u>
+</div>
+<div class="MarginDiv" >
+    <div> <span id="spnCustomerName"></span></div>
+    <div> <span id="spnCustomerAddress"></span></div> 
+</div>
+<div class='controls-group'>
+    <div class="FloatLeftDiv" >
+        <div><strong>@OrderDetail.Total_Items</strong><strong id="strTotal_Items"> 23</strong></div>
+        <div><strong>@OrderDetail.Sub_Total</strong>@OrderDetail.Cuurency<strong id="strSub_Total">21</strong></div>
+        <div><strong>@OrderDetail.Discount</strong>@OrderDetail.Cuurency<strong id="strDiscount">23</strong></div>
+        </div>
+    <div class="FloatRightDiv" >
+        <div><strong>@OrderDetail.Total</strong>@OrderDetail.Cuurency<strong id="strTotal">12</strong></div>
+        <div><a href="/substitute"><strong>@OrderDetail.Substitutes</strong><strong id="strSubstitutes">32</strong></a></div>
+        <div><strong>@OrderDetail.Short_Life</strong><strong id="strShort_Life">12</strong></div>
+    </div>
+</div>
+ <div class='controls-group'>
+        <input type="button" id="btnCardPayment"  class="btn-OrderDetail" value="@OrderDetail.Card_Payments" />
+        <input type="button" id="btnRejectproduct"  class="btn-OrderDetail" value=" @OrderDetail.Reject_Product" />
+ </div>
+  <div class='controls-group'>
+      <div id="divTextArea">
+            <textarea Id="txtDriversNote"></textarea>
+      </div>
+  </div>
+ <div class='controls-group' style="width:100%;">
+        <a href="/admin" ><img src="/images/SendPOD.png" alt="Admin User" /></a>
+        <a href="/admin" ><img src="/images/SendRD.png" alt="Admin User" /></a>
+        <a href="/admin"><img src="/images/Communication.png" alt="Admin User" /></a>
+ </div>
+

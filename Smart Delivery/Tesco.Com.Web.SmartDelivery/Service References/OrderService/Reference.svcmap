@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4a7c6800-c144-4ab9-87fa-ee6df1581096" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AppStoreOrderService.disco" MetadataType="Disco" ID="030933ba-8d24-4920-b199-8d0cdb454357" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?disco" />
+    <MetadataFile FileName="AppStoreOrder.wsdl" MetadataType="Wsdl" ID="a160edca-8a3f-4fc9-b726-76ad2b67f8a0" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?wsdl" />
+    <MetadataFile FileName="AppStoreOrderService.xsd" MetadataType="Schema" ID="bbf7f2d4-f04e-452a-a1ee-592b99d4503d" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AppStoreOrderService1.xsd" MetadataType="Schema" ID="5330d9fd-7421-44f3-9136-64837002560f" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AppStoreOrderService2.xsd" MetadataType="Schema" ID="96157f4b-4c78-4f9b-8f9a-9b8723af08e1" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AppStoreOrderService3.xsd" MetadataType="Schema" ID="bb691bf9-2c38-4bd0-9e04-cf6d4e4c3fb5" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

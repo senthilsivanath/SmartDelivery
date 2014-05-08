@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html manifest="@Url.Action("Index", "Offline", new { language = ViewBag.Language })"> 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/yui")
+</head>
+<body class="yui3-skin-sam">
+    <div class="container">
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

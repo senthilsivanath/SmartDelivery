@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MockOrderService.DataMembers" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MockOrderService.DataMembers" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Order" nillable="true" type="tns:Order" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrder" nillable="true" type="tns:ArrayOfOrder" />
+  <xs:complexType name="Order">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmbientTrayCount" type="xs:int" />
+      <xs:element minOccurs="0" name="ChilledTrayCount" type="xs:int" />
+      <xs:element minOccurs="0" name="Customer" nillable="true" type="tns:Customer" />
+      <xs:element minOccurs="0" name="CustomerDeliveryStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CustomerOrderId" type="xs:int" />
+      <xs:element minOccurs="0" name="CustomerOrderReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliveryNotes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliverySlot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeliveryWithoutBags" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DirectParcelCount" type="xs:int" />
+      <xs:element minOccurs="0" name="Discounts" type="xs:double" />
+      <xs:element minOccurs="0" name="DropSequence" type="xs:int" />
+      <xs:element minOccurs="0" name="DropTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FrozenTrayCount" type="xs:int" />
+      <xs:element minOccurs="0" name="GridReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Orderlines" nillable="true" type="tns:ArrayOfOrderLines" />
+      <xs:element minOccurs="0" name="ScheduledArrival" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ShortOrderNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="StoreMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubTotalAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalItems" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalOffsaledItems" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalSubstitutedItems" type="xs:int" />
+      <xs:element minOccurs="0" name="WindowEnd" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="WindowStart" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="WineTrayCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Order" nillable="true" type="tns:Order" />
+  <xs:complexType name="Customer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerFullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerSurname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneDaytime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneEvening" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneMobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Postcode" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SignaturePoints" nillable="true" type="q1:ArrayOfint" />
+      <xs:element minOccurs="0" name="customerCommunication" nillable="true" type="tns:CustomerCommunication" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="tns:Customer" />
+  <xs:complexType name="CustomerCommunication">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CommunicationDetail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommunicationTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CustomerCommunication" nillable="true" type="tns:CustomerCommunication" />
+  <xs:complexType name="ArrayOfOrderLines">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrderLines" nillable="true" type="tns:OrderLines" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrderLines" nillable="true" type="tns:ArrayOfOrderLines" />
+  <xs:complexType name="OrderLines">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Barcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsSubstitued" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OrderLineId" type="xs:int" />
+      <xs:element minOccurs="0" name="PickedQuantity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RejectedQuantity" type="xs:int" />
+      <xs:element minOccurs="0" name="RejectionReason" type="tns:RejectionReason" />
+      <xs:element minOccurs="0" name="SubstitutedFor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitPrice" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrderLines" nillable="true" type="tns:OrderLines" />
+  <xs:simpleType name="RejectionReason">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Broken" />
+      <xs:enumeration value="NotInGoodShape" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="RejectionReason" nillable="true" type="tns:RejectionReason" />
+</xs:schema>

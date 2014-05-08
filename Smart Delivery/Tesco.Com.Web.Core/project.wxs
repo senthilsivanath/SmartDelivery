@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TARGETDIR">
+            <Directory Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B" Name="MvcApplication3" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp033925B738FA746F10B0C29C50D6DD5D" Guid="*">
+                <File Id="filCFAC78111BA6EC01CCDD5B215782D7D2" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp040ACA39001B2F1A0805EE7CF5FAF620" Guid="*">
+                <File Id="filE81AF0359FC0315BD6B9AB5389405CA8" KeyPath="yes" Source="SourceDir\bin\System.Web.Helpers.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp078222830C09385AA6B23018F6C2385D" Guid="*">
+                <File Id="filB798FC34C3A477023999C6ABA43042A9" KeyPath="yes" Source="SourceDir\bin\System.Web.Http.WebHost.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp0895527DAA25DD72902653A2ACC4066E" Guid="*">
+                <File Id="fil4B06B4EC02F39D6EA25F4558D0E2D90F" KeyPath="yes" Source="SourceDir\MvcApplication3.csproj" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp0BC23A84CFE493A29C81554669BECC50" Guid="*">
+                <File Id="fil3D1AD63580AE470C4055A41EB13DC363" KeyPath="yes" Source="SourceDir\Images\orderedList4.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp0C6D195A61629DE3C7D38912D5BE5DF2" Guid="*">
+                <File Id="filE9EFA9D1033ED0ACF3CF8C9FCEC39278" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp0D11082F86514796CD69744BBDE9FA3F" Guid="*">
+                <File Id="fil449D655A8DBF073E642E94192A312B90" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.progressbar.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp0E3433E450081C88BF4EBD183255E6FE" Guid="*">
+                <File Id="fil62A679ED8AB2FE055821EC9F48A4979C" KeyPath="yes" Source="SourceDir\favicon.ico" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp0F89DEE21977A5492327FA92084F5007" Guid="*">
+                <File Id="filAB5661D5C9593044FE80C01F1576774D" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.button.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp103425C06AB3D4187BA40905140C2947" Guid="*">
+                <File Id="fil5AD5649E75876A5948A49F66E765ED01" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.tabs.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp115011302272518851EAED943F064CF8" Guid="*">
+                <File Id="filF3F9D4F79F5F6C3342144430F2989D22" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.tabs.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp1282FEC6D9EF51F118A4FC6FCC1487F6" Guid="*">
+                <File Id="filFFC035627B6B6C482BF92374A2F3F34C" KeyPath="yes" Source="SourceDir\Images\heroAccent.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir29C2680F0325B8C143EA1D77F5A2B1AD">
+            <Component Id="cmp137CE3B35EE092FDAE4236F85800D7C3" Guid="*">
+                <File Id="filE012595268A60C3F874F058C68D36633" KeyPath="yes" Source="SourceDir\Views\Shared\_Layout.cshtml" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp13C4D37B365969F5064740930DD4FE86" Guid="*">
+                <File Id="filBD89D9A2D4171EF226367CC625EAAB1C" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC940B7EFE6CA1D65598CCE0B7F80ECF1">
+            <Component Id="cmp14F56C21D69B863B50487CADEF3C8C09" Guid="*">
+                <File Id="fil8A6B7F84EF9D01742C5A81B046B96A63" KeyPath="yes" Source="SourceDir\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp154B2655F5E42C820D41352791AFBD30" Guid="*">
+                <File Id="fil36C154800E1834E645750D08C9D2764C" KeyPath="yes" Source="SourceDir\Scripts\jquery-1.7.1.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp16A657AA68D7041E4F8FCFD69D9AC680" Guid="*">
+                <File Id="fil0853E8112063C8BD8496DEA6D62ED911" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp1904420310BB16AC9D12DB7F8B7C07BD" Guid="*">
+                <File Id="fil6144C2F2C35E0EB13A5380285F602047" KeyPath="yes" Source="SourceDir\Web.Release.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp1A511BBD2BD8C8766BA07305988DE1B5" Guid="*">
+                <File Id="fil74FE0A710D7C445DE696C2AF5CF9B351" KeyPath="yes" Source="SourceDir\bin\System.Web.Providers.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp1BB5B79833E2251B191B401E8E94C069" Guid="*">
+                <File Id="fil32C27754302165DEE2BFA13F824EA16F" KeyPath="yes" Source="SourceDir\bin\System.Web.WebPages.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp1BC7D0994AC4AC4151265794A50AB441" Guid="*">
+                <File Id="fil9B6C2525BBC773A55C6A03B2D2A2E1A2" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp1BD741762147ECFCA8B98CA0E0A90C1F" Guid="*">
+                <File Id="fil89E24BDF661CC3F51D5E287B2EC1DB6F" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery-ui.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp1C555C058A3AE736082F18C229DC923C" Guid="*">
+                <File Id="fil3015B44EC77C33C37870E95D1A0B87C2" KeyPath="yes" Source="SourceDir\bin\EntityFramework.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp200B75181A3DC9476625439CB1FF857B" Guid="*">
+                <File Id="fil4674FFDBDE82B52187E71ACC96547A4A" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp2251E5D1DFC445C94E0FDEB0DCEB7B53" Guid="*">
+                <File Id="fil225607CF8AB029AF1A34EB4E49F60C27" KeyPath="yes" Source="SourceDir\MvcApplication3.csproj.user" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp2412643A17AE29E79EEED161F7216064" Guid="*">
+                <File Id="fil2CBF90267701E6E62931D82D726CB9C3" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.resizable.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp2465042E5A022CFE798867880DC18BF2" Guid="*">
+                <File Id="fil0CF3D13B5DDF89DAD4B54D105DC1B6E7" KeyPath="yes" Source="SourceDir\bin\Newtonsoft.Json.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFFAA10E0CEDB53E5925CF1A9FBABCC57">
+            <Component Id="cmp24A0F8B3F8AE8914A722172A084D62A1" Guid="*">
+                <File Id="filC94C3E5BD77BE78007311C4E2FF36561" KeyPath="yes" Source="SourceDir\Controllers\HomeController.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp25190A66CEBC74F90FDEBD6DEDD816D9" Guid="*">
+                <File Id="fil79649DA331917A4FEA537E279F2BEC83" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.selectable.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFD483902A72F1FDD91B5D85CFDA1732C">
+            <Component Id="cmp2A380F946847CBE072E5D0B01C53AD18" Guid="*">
+                <File Id="fil38BC1A2520B37E5F2B84588995258592" KeyPath="yes" Source="SourceDir\Views\Home\Index.cshtml" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp2D4EE01FCDFA0D41A665B74834070F69" Guid="*">
+                <File Id="fil56EC7E6FA1D624479331129ADB0F9616" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp2E5C7360BBB4DB73E97AAAB7E10E2C80" Guid="*">
+                <File Id="fil32EE43567CFF379ED6C66551946A9CC2" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.dialog.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp2F7AEA0EECB6C4392288659B8C7F677F" Guid="*">
+                <File Id="filE9BBCCB310AA7754DB6835B86B890E36" KeyPath="yes" Source="SourceDir\Scripts\jquery-ui-1.8.20.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp309ECB60EAADB3133587CC93F5223D47" Guid="*">
+                <File Id="fil0C4578399C61501798A5DF057D603C6A" KeyPath="yes" Source="SourceDir\Images\orderedList2.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp34EF0ECDF21BD491AA3EB6C3F077C049" Guid="*">
+                <File Id="fil5AE0DB5E8D85CB0743FCC2C35CD7835C" KeyPath="yes" Source="SourceDir\bin\System.Web.Http.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp35554653FB8BDDD90B140D320C783BF1" Guid="*">
+                <File Id="filB113F07E6FC2CEF790A04CC1551CB949" KeyPath="yes" Source="SourceDir\Web.Debug.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp3D8C2AF2974BAB10607A6AB16359F508" Guid="*">
+                <File Id="fil3881F1DBCDEE86DAFD6DA347E8E0C1FB" KeyPath="yes" Source="SourceDir\bin\System.Web.Mvc.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp3DBDD798E63B27CA28E11E53D50E6E4F" Guid="*">
+                <File Id="fil975F2CB43D83F4DE538611502D6F3836" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4DE126179958577310D4071E19332073">
+            <Component Id="cmp3EBC2FF2DFCB2DE81B9E954A11451983" Guid="*">
+                <File Id="filADDBBA431D90D2AE058CF4D14023102E" KeyPath="yes" Source="SourceDir\App_Start\BundleConfig.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp3F8C4F7A168E31C49D6EB589279E60C9" Guid="*">
+                <File Id="fil9F81B502E1D886157DC35F79D26BD17C" KeyPath="yes" Source="SourceDir\bin\System.Web.WebPages.Deployment.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp4193F7369D456A3883F4532A6A6A1F91" Guid="*">
+                <File Id="fil34FAEA8AB03063DB07C7588251D126BA" KeyPath="yes" Source="SourceDir\Global.asax.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp42E3F3D4AA9E400069E3E70E91B8D60D" Guid="*">
+                <File Id="filF8AC4F82521F76C13C2A141096491767" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.resizable.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmp42E55B5D4198DFF9142DA1F745BB651D" Guid="*">
+                <File Id="fil56E6F429DB409313F78B02066D10DDB1" KeyPath="yes" Source="SourceDir\Global.asax" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp42FE5C6442B276938DC7FE68C961A659" Guid="*">
+                <File Id="fil5FEA380F151F0D4056D6C0CE0A9C9CD6" KeyPath="yes" Source="SourceDir\bin\System.Net.Http.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp4445B8F248A5821B6ED2CC7FC6E67FD8" Guid="*">
+                <File Id="fil961FBD8C8E4857D534F29B0E228106D8" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp44EC095DD3C19715E165CE869685CE3D" Guid="*">
+                <File Id="fil27948B990CF02516AA47A21D738009A4" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.autocomplete.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp473C5FD835F6FCE549C96FD491152EC1" Guid="*">
+                <File Id="fil4863A76A5606E367F2D4AF232E7534B9" KeyPath="yes" Source="SourceDir\Images\orderedList5.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9DF860B1A7B7383B7966E0A16BC4EDE">
+            <Component Id="cmp48241C9B805F6CDB6538049245458A28" Guid="*">
+                <File Id="filEC4975ECC1991295104EC498836FD77B" KeyPath="yes" Source="SourceDir\Views\_ViewStart.cshtml" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp4C681B699633B38EDC73184A09C2A31E" Guid="*">
+                <File Id="fil9138E2F79FC65373EF0AB44F6D762365" KeyPath="yes" Source="SourceDir\bin\System.Net.Http.WebRequest.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp4D94B81D5853461C4BEFC706E0B836CB" Guid="*">
+                <File Id="fil9D60B823B1B04624B6A0A28146213763" KeyPath="yes" Source="SourceDir\bin\System.Web.WebPages.Razor.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp53C1FE79A9129B9ED58C920305EADB64" Guid="*">
+                <File Id="fil1322F72572D7548B20C4876315937B10" KeyPath="yes" Source="SourceDir\Images\accent.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp5445D7F0DDB2722A274A16671DC67BFB" Guid="*">
+                <File Id="fil3650D3A15ABF240D9D456967BE5030D0" KeyPath="yes" Source="SourceDir\Scripts\_references.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp59D746835B19E07DFFF0BCD33C58FE14" Guid="*">
+                <File Id="fil0326B498F7C9049E6C5336FC78E50E3C" KeyPath="yes" Source="SourceDir\Images\orderedList9.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFFAA10E0CEDB53E5925CF1A9FBABCC57">
+            <Component Id="cmp5B6A6B77B1F0BB5ED02CB33001C2ACA1" Guid="*">
+                <File Id="filBA5B6AFD9126C3907FDE24CF65461F28" KeyPath="yes" Source="SourceDir\Controllers\ValuesController.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp5C896D54E53B6B84DD3A5284261EEF1E" Guid="*">
+                <File Id="fil9ACBE9E55369C57CD4587D3035C9A9C6" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp5D9A728B53F2005429CEB48A5AD933F1" Guid="*">
+                <File Id="fil23FB8146195965839A55E553CB923512" KeyPath="yes" Source="SourceDir\Images\orderedList1.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp616510D6D59A68E7554C74C543F875A2" Guid="*">
+                <File Id="fil79412846EDA20767AF31A9207BFB26EF" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp64F0155B236DDCCDB4215BE3AAA88B6B" Guid="*">
+                <File Id="fil1FFA133AD224363DC7D07EA6F9BBD38A" KeyPath="yes" Source="SourceDir\Scripts\knockout-2.1.0.debug.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp66CDC674B6877C08EB0AE0D028CBE7C8" Guid="*">
+                <File Id="filBE80C90026C4BACCF859EA41DFFEE086" KeyPath="yes" Source="SourceDir\Scripts\jquery-1.7.1-vsdoc.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp6CB83E805E53BD337D1E21AC98985516" Guid="*">
+                <File Id="filD5E3F9328BFE62B50CA9AB682CA99D9E" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.all.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp6F23A7CB6AB4E69819EB0FC6137BB250" Guid="*">
+                <File Id="fil6F3A4D81667FA0A8555B90E28F4B550E" KeyPath="yes" Source="SourceDir\Scripts\knockout-2.1.0.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp6FF9911EDC2DD6E8234B394FAAEFB964" Guid="*">
+                <File Id="filA600AF498597DCDB4178036A58FEAB73" KeyPath="yes" Source="SourceDir\Scripts\jquery.validate-vsdoc.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp70540CF3B1C7B78F978331818065F5D9" Guid="*">
+                <File Id="fil42B1DFAC73803B79FD448CCA6F0E1880" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.accordion.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp723D5A51A0421494792B4E1C35FEE0FC" Guid="*">
+                <File Id="filCFB33BCC632BDE0223A7123F414C60ED" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp772A33E556E527FEDFB70667EE355B08" Guid="*">
+                <File Id="filD09DD60396ECC30DB6A9D3BCF6A0936E" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.dialog.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp78F90CB09BA46B8313E4CEF8974B0B66" Guid="*">
+                <File Id="fil993508ABD5FF07E50E6DB875127E383F" KeyPath="yes" Source="SourceDir\bin\System.Net.Http.Formatting.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp7C32891E78BD49E61265291E29BBDD8F" Guid="*">
+                <File Id="fil9405D50B1AFCCBC3E5A0D55C406FE2E9" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp7DEAEDA469B9EC7A99E0A7A5BA034513" Guid="*">
+                <File Id="fil8363060B6DB78EB077D245351B61C7DC" KeyPath="yes" Source="SourceDir\Images\orderedList8.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2F9738E13C6F8C2E39226B2DB9538FF0">
+            <Component Id="cmp83B715F94B24F4A782C8ED636857D735" Guid="*">
+                <File Id="fil083BC8BEFAD10C2BA3D7EE502EB1C3DB" KeyPath="yes" Source="SourceDir\Content\Site.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp83F8778D0468C185C242CB9FBE98070E" Guid="*">
+                <File Id="fil5E639C556C63D300C9A7E2EEC82A02CA" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmp85C173E10242D04E10DD05142E216F04" Guid="*">
+                <File Id="filD89773E4E54A796FDB746226AF17932E" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmp8BBA7F8505E3AB8FAA819D23CE44C900" Guid="*">
+                <File Id="fil467942EAC92CAE0D2028A75AF1B91432" KeyPath="yes" Source="SourceDir\Scripts\modernizr-2.5.3.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmp8C23CF27E34A29ADC75FB0693F50D11D" Guid="*">
+                <File Id="fil7B150B009C60FB8F3BDE87939A13F7E2" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.core.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp8C5F72B248A6E00C98F94E686C57535A" Guid="*">
+                <File Id="fil01FDBA5B6CB158C7BD79933E52024F93" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp8CCC63B8F2D963C630D611A54B2DBFFD" Guid="*">
+                <File Id="filCAB8819362DCAF882AA1CFA9E2E895CE" KeyPath="yes" Source="SourceDir\Images\orderedList0.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmp932478B2EA19CB09974B9D3541CB8A30" Guid="*">
+                <File Id="filFD13656CB0723C5F08091AF0319E025B" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-icons_888888_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmp942EED09016F2BBA4C298A6308CA8EF5" Guid="*">
+                <File Id="filE3992D50A5FDA1A86B32C2D51800DC7D" KeyPath="yes" Source="SourceDir\Images\bullet.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp94FA123198C0CCBBA439D80637B7F971" Guid="*">
+                <File Id="fil0620A8836CDAA7E77B74D0E9BDB54B0F" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.core.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmp9C65015456C71725B5E34F84767BE3ED" Guid="*">
+                <File Id="fil124174C7C5811369B306E13D995023DA" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.theme.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmp9E73BE6E5C7A3A177035B7ED18474C40" Guid="*">
+                <File Id="filCC392FBE220CFA5E5A53438BBA538954" KeyPath="yes" Source="SourceDir\bin\Antlr3.Runtime.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmpA17B75797C677BBC6AB585730EC52324" Guid="*">
+                <File Id="fil908CBEB22F15B1F49213403908BF4E1E" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpA2037AE35C3AF1DA94A8244C6251C175" Guid="*">
+                <File Id="fil3D69C29E950516E27E99DAF5BD92A19A" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmpA8D9559A89682D981D6C09F6FE36FAEF" Guid="*">
+                <File Id="fil76749A325E0756CB6D482943DE870838" KeyPath="yes" Source="SourceDir\bin\WebGrease.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpA92C91D3CD4CCF657BA27D93E3475856" Guid="*">
+                <File Id="filC58E6685EC6D3C4BA0CFCE45F52C5246" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-icons_454545_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpA9429F761B3143BE8C4EA1266CED374D" Guid="*">
+                <File Id="fil7B29A1CE18B05FEF4EF9F923EC4B6D97" KeyPath="yes" Source="SourceDir\Scripts\jquery.unobtrusive-ajax.min.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmpA97D66F5F738781D1D36C183B422142A" Guid="*">
+                <File Id="filB9AEEF8143EAFAF9D7D32C7B5077979B" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir29C2680F0325B8C143EA1D77F5A2B1AD">
+            <Component Id="cmpAA67C35D3F3CB980CF396FA7ED358C9B" Guid="*">
+                <File Id="fil42B424B1351A336F93F776F4AED70D96" KeyPath="yes" Source="SourceDir\Views\Shared\Error.cshtml" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4DE126179958577310D4071E19332073">
+            <Component Id="cmpAB3E46BF998589F6611368C46D9F5E55" Guid="*">
+                <File Id="fil4E6F0D8D463E1DE90F389CAF62AC4D75" KeyPath="yes" Source="SourceDir\App_Start\WebApiConfig.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpAD5BCE645B638B06A4DCB7E8B9D307FF" Guid="*">
+                <File Id="fil64F97168F7F9716544E1669A0701F0CD" KeyPath="yes" Source="SourceDir\Scripts\jquery.validate.unobtrusive.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4DE126179958577310D4071E19332073">
+            <Component Id="cmpAF1FC30BDC934F10AE8A67D75B440D68" Guid="*">
+                <File Id="fil2B2DD274D9A52954B0F0AB32891A1F56" KeyPath="yes" Source="SourceDir\App_Start\FilterConfig.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirADB89D947016C4A9599B1244C68DFE95">
+            <Component Id="cmpB34B08A01029B912B61349AC5F08C5B2" Guid="*">
+                <File Id="fil8F05DC0B14C3404DE9746937F2328347" KeyPath="yes" Source="SourceDir\Properties\AssemblyInfo.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmpB421D3C7DF1366756DE3341C7AB13402" Guid="*">
+                <File Id="fil2B38511D7E60BD84376597FAFC431F50" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmpBB1B0802CCECABB7D23BA2CD9AB56ABD" Guid="*">
+                <File Id="filAF61F1078C6EA79CF09AAB9273466E0A" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.accordion.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmpBB9A4B8100017728E3407588BCCA2DE0" Guid="*">
+                <File Id="fil2CAB13EFFD5D078B660922E6787BDE9C" KeyPath="yes" Source="SourceDir\Images\orderedList3.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpC14451D952AA00CC5931A147465B7524" Guid="*">
+                <File Id="fil66690DFCD57A50D45B6A90508074F672" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmpC1AEA77104A1C5B8200BE4B0958B22F2" Guid="*">
+                <File Id="filDE47C15740AFBE1EABAFFA7EC7015E1E" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpC2AC79C350C1C9B8BD5485AB888D2FB5" Guid="*">
+                <File Id="filE0C8ACC85A4A314554C55B44DDF05F05" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpC9C8D1B56E9B68DEE64CEBA446D11152" Guid="*">
+                <File Id="fil065CF8165FB1A0D1C908AB869B33C156" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.selectable.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F">
+            <Component Id="cmpCD6AC6B65B75812AE9C2F27AE0AD22F5" Guid="*">
+                <File Id="fil80401DB6CFBA90B9B2D56C63B3A91F56" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmpD06419117D10A54113E5E112E6425978" Guid="*">
+                <File Id="fil3F244C0AD3A8DED5A1559B75E1648F85" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.slider.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpD073C605AA7C616C178189283B0F59E5" Guid="*">
+                <File Id="fil9DBF5B6CB6766C72F01BE6331112B56F" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.datepicker.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmpD09A1E8D8718C79FD464A7BE42B230E6" Guid="*">
+                <File Id="fil0D16C00D5FD372E9A82354F6992BE904" KeyPath="yes" Source="SourceDir\bin\System.Web.Optimization.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9DF860B1A7B7383B7966E0A16BC4EDE">
+            <Component Id="cmpD2677193ECC91F1310AF0E9ABA69429F" Guid="*">
+                <File Id="fil2A74BF80FF240DFFD3B8DA877A82F449" KeyPath="yes" Source="SourceDir\Views\Web.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Component Id="cmpD54BD9FEDD1F4381D1905F9CC22E83AB" Guid="*">
+                <File Id="fil4475609DFEFA2D58179A81A19E3AC667" KeyPath="yes" Source="SourceDir\Content\themes\base\minified\jquery.ui.theme.min.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmpD5ABF98749DA8F8B2ECAAE8C27467FD7" Guid="*">
+                <File Id="fil80C416726FDF543FD039AFF5C0817279" KeyPath="yes" Source="SourceDir\Images\orderedList6.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmpD754CA25CF3F68DF346C546093CE27E0" Guid="*">
+                <File Id="filD6A78B809F757284725E45302529987B" KeyPath="yes" Source="SourceDir\Web.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFB478ED44EEB37BFF75F21D6C1BA3214">
+            <Component Id="cmpDB8A550C004BE07351CF8B2FCB72C407" Guid="*">
+                <File Id="fil57387D7B597EFB995E056ADCAE53865D" KeyPath="yes" Source="SourceDir\Images\orderedList7.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpDCD52A5D881E2CD6C664740C37E404A8" Guid="*">
+                <File Id="filFC953E7AA80E075256F6BCD2842E08B3" KeyPath="yes" Source="SourceDir\Scripts\jquery.unobtrusive-ajax.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpDD168A5553E945E2530BE251B68C5A43" Guid="*">
+                <File Id="filB2AC8E71CA42C25A62C83F63AC74EFBC" KeyPath="yes" Source="SourceDir\Scripts\jquery-1.7.1.min.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpDD27E64FF2BA59B264280091AAFD14CE" Guid="*">
+                <File Id="filE03E55E6FFD1BC39AA3366585223AACB" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.button.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpE1E82B8460964EFE10846A0AE4F07F24" Guid="*">
+                <File Id="filFA8EF56956349996F663173BB2700FB0" KeyPath="yes" Source="SourceDir\Scripts\jquery.validate.unobtrusive.min.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpE30F0A783E95AEB3F2CD5EE72C3C38D0" Guid="*">
+                <File Id="fil0D79BB5CDF9789A208359D47B06A762B" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-icons_222222_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpE346CB9AA243804DC75BC7AAAADD6E3D" Guid="*">
+                <File Id="fil46D9C579F003D0629BACD4161084D4E5" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.base.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmpE972632F1B711586304E47530146E26C" Guid="*">
+                <File Id="fil8A949C8B0ED0FAC100EB45A84FA6EB78" KeyPath="yes" Source="SourceDir\bin\System.Web.Razor.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4DE126179958577310D4071E19332073">
+            <Component Id="cmpEAF6707648E5BD12FB807D79ADDF8E0F" Guid="*">
+                <File Id="fil91A20FB099077A9179FB812AA4FE2425" KeyPath="yes" Source="SourceDir\App_Start\RouteConfig.cs" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpECB33220AF700AB6A678665EAECEE733" Guid="*">
+                <File Id="filF075A5028CB7F9AA4FE7BF5B96DE256D" KeyPath="yes" Source="SourceDir\Scripts\jquery.validate.min.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00">
+            <Component Id="cmpF17309BCDBFDBD06BCFEE72290B7854F" Guid="*">
+                <File Id="filB1E82F573A5C6932029CAF020CF9107B" KeyPath="yes" Source="SourceDir\bin\Microsoft.Web.Infrastructure.dll" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpF29642850E3903C480251C6E693A2AFE" Guid="*">
+                <File Id="fil3DAF2C6437E8844CA262738FFEE0C1D3" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery.ui.slider.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpF7E1D044CBBF3B563033C491030B0969" Guid="*">
+                <File Id="fil14922D8A7FA181976C48EB6701E17D55" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4AAACFE56AECCA5AE48784AE42E6CB04">
+            <Component Id="cmpF97576CC4BD74EFC547FAAAE5A17B786" Guid="*">
+                <File Id="filE9A9E90C8A5659E0031B0F293B8FE335" KeyPath="yes" Source="SourceDir\Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpF9F3F73064B3C8DEA77AB413CABEA690" Guid="*">
+                <File Id="filD35D1A01B63F4DB0ED9D33A8BDBD32CB" KeyPath="yes" Source="SourceDir\Scripts\jquery.validate.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Component Id="cmpFD954E8EC06C4796489F8820FA43551F" Guid="*">
+                <File Id="filBC3766500F9462D1E92EA451CE6A2487" KeyPath="yes" Source="SourceDir\Content\themes\base\jquery-ui.css" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Component Id="cmpFDF96876DC082E6EC039EE6FD02C93D9" Guid="*">
+                <File Id="fil9D1A73F72C46E20AE55317473FFA5FAC" KeyPath="yes" Source="SourceDir\packages.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE14CF3019A431B93B860A64613D32E22">
+            <Component Id="cmpFEBEA4CA632036B9644A5014B96810D6" Guid="*">
+                <File Id="filD56A000377BD6B4435C1954F5B127AED" KeyPath="yes" Source="SourceDir\Scripts\jquery-ui-1.8.20.min.js" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2F9738E13C6F8C2E39226B2DB9538FF0">
+            <Directory Id="dir155F425CBA9A914C060247D9372F0049" Name="themes" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9DF860B1A7B7383B7966E0A16BC4EDE">
+            <Directory Id="dir29C2680F0325B8C143EA1D77F5A2B1AD" Name="Shared" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Directory Id="dir2D16FD1B0D4F41593586E2D53E0E859F" Name="minified" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dir2F9738E13C6F8C2E39226B2DB9538FF0" Name="Content" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97740B81AA0ACABB152BE6E7908B6661">
+            <Directory Id="dir4AAACFE56AECCA5AE48784AE42E6CB04" Name="images" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dir4DE126179958577310D4071E19332073" Name="App_Start" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dir59B219357094F8342987ABFBB185B03D" Name="obj" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir155F425CBA9A914C060247D9372F0049">
+            <Directory Id="dir97740B81AA0ACABB152BE6E7908B6661" Name="base" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirADB89D947016C4A9599B1244C68DFE95" Name="Properties" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirBD4C5CA41BCC0B84D39C2E4CB659CD00" Name="bin" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D16FD1B0D4F41593586E2D53E0E859F">
+            <Directory Id="dirC4B3AFFC3C3C94E2E40C234808FA0E9F" Name="images" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir59B219357094F8342987ABFBB185B03D">
+            <Directory Id="dirC940B7EFE6CA1D65598CCE0B7F80ECF1" Name="Debug" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirC9DF860B1A7B7383B7966E0A16BC4EDE" Name="Views" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirE14CF3019A431B93B860A64613D32E22" Name="Scripts" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirFB478ED44EEB37BFF75F21D6C1BA3214" Name="Images" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9DF860B1A7B7383B7966E0A16BC4EDE">
+            <Directory Id="dirFD483902A72F1FDD91B5D85CFDA1732C" Name="Home" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6BEBBF96E8AC2FCC3104CC7BE885D94B">
+            <Directory Id="dirFFAA10E0CEDB53E5925CF1A9FBABCC57" Name="Controllers" />
+        </DirectoryRef>
+    </Fragment>
+</Wix>

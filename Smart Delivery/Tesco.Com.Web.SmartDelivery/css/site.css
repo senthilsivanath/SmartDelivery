@@ -1,0 +1,246 @@
+
+body
+{
+    background-color: #DCE6F2;
+}
+.container
+{
+    width: 800px;
+    max-width: 99%;
+    margin: 20px auto;
+    font: .8em/150% Arial, Helvetica, sans-serif;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+#icons
+{
+    margin-top: 20px;
+}
+.box
+{
+    background-color: white;
+    float: left;
+    width: 43%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #4F81BD;
+    border-radius: 5px;
+}
+.icon-box
+{
+    background-color: white;
+    display: inline-block;
+    width: 64px;
+    margin: 2px;
+    text-align: center;
+    border: 1px solid #4F81BD;
+    border-radius: 5px;
+}
+.center
+{
+    text-align: center;
+}
+.OrderHeading
+{
+	font-size:large;
+	font-weight:bold;
+}
+.FloatLeftDiv
+{
+	float:left;
+	width:50%;
+}
+.FloatRightDiv
+{
+	float:right;
+	width:50%;
+}
+.MarginDiv
+{
+	margin:5px 0px 5px 0px;
+}
+#content
+{
+    margin: 0px auto;
+    text-align: center;
+}
+h1
+{
+    font: 1.7em;
+    line-height: 110%;
+}
+label
+{
+    min-width: 80px;
+    display: inline-block;
+}
+input
+{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #4F81BD;
+    width: 400px;
+    min-width: 150px;
+    max-width: 40%;
+}
+.input
+{
+    display: inline;
+}
+.controls-group
+{
+    margin: 0px 0px 0px 0px;
+}
+.btn-primary:hover
+{
+    background-color: #769CCB;
+    color: white;
+    font-weight: bold;
+}
+.btn-primary
+{
+    background-color: #4F81BD;
+    color: white;
+    font-weight: bold;
+}
+.btn-OrderDetail:hover
+{
+    background-color: #769CCB;
+    color: white;
+    font-weight: bold;
+    height:100px;
+    border:2px solid #000; 
+    border-radius:10px;
+}
+.btn-OrderDetail
+{
+    background-color: #769CCB;
+    color: white;
+    font-weight: bold;
+    height:100px;
+    border:2px solid #000;
+    border-radius:10px; 
+}
+select
+{
+    padding: 10px 4px 10px 10px;
+    border-radius: 4px;
+}
+.signature
+{
+    width: 100%;
+}
+
+.gmapdimensions
+{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 50%;
+}
+.both
+{
+    clear: both;
+}
+#admin
+{
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+}
+#txtDriversNote
+{
+	width:96%; 
+	height:94%;
+	margin:0px 0px 0px 0px;
+	border:0px;
+}
+#divTextArea
+{
+	border-radius:10px;
+	height:100px; 
+	background-color:White; 
+	border:2px solid #000; 
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+/* Order grid styles */
+#tblOrderGrid
+{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid silver;
+}
+#tblOrderGrid td
+{
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.disablerow
+{
+    background-color: #dddddd;
+}
+/*-----------------------------*/
+
+/* Substitute grid */
+#tblSubstitute
+{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid silver;
+}
+#tblSubstitute td
+{
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+#tblSubstitute tr:nth-of-type(odd)
+{
+    background: #eee;
+}
+/*----------------------------------------*/
+
+/*table Grid Styles*/
+.customer-detailsleft
+{
+    width: 50%;
+    float: left;
+}
+.customer-textalign
+{
+    text-align: right;
+}
+
+.gridspanleft
+{
+    padding-left: 2px;
+}
+
+.gridspanspace
+{
+    padding-right: 3px;
+}
+.gridtextrightspace
+{
+    padding-right: 5px;
+}
+.totalwidth
+{
+    width: 100%;
+}
+.toppadding
+{
+    margin-top:5px;
+}
+.gridsubrightspace
+{
+   padding-right: 10px 
+}

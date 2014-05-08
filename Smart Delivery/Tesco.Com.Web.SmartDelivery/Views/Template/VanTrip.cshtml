@@ -1,0 +1,48 @@
+﻿@using Tesco.Com.Web.SmartDelivery.Resources
+@{
+    ViewBag.Title = "";
+    Layout = "";
+}
+<div class="center">
+    <img src="@Url.Content("~/images/tesco-logo.gif")" alt="logo" />
+</div>
+<div class="center">
+    <h2>@VanTrip.Heading</h2>
+</div>
+<div class="center">
+    <div class='controls-group'>
+        <div>
+            <label for="txtVantripId">
+                @VanTrip.VanTripId
+            </label>
+        </div>
+        <div>
+            <input type="text" data-blankSpace="@VanTrip.BlankVantripValidation" data-invalidCode="@VanTrip.InValidVantripValidation" name="txtVantripId" id="txtVantripId" maxlength="10" />
+        </div>
+        <div>
+            <label id="lblVanError" style="color: Red">
+            </label>
+        </div>
+    </div>
+    <div class='controls-group'>
+        <div>
+            <label for="txtStoreID">
+                @VanTrip.StoreID</label>
+        </div>
+        <div>
+            <input type="text" name="txtStoreID" id="txtStoreID" data-blankSpace="@VanTrip.BlankStoreValidation" data-invalidCode="@VanTrip.InValidVantripValidation" maxlength="10" />
+        </div>
+        <div>
+            <label id="lblStoreError" style="color: Red">
+            </label>
+        </div>
+    </div>
+    <div class='controls-group'>
+        <div style="display: none" id="divLoading">
+            <img src="@Url.Content("~/images/loading.png")" />
+        </div>
+        <div>
+            <input type="button" id="btnStartDay" class="btn-primary" value="@VanTrip.StartDay" />
+        </div>
+    </div>
+</div>

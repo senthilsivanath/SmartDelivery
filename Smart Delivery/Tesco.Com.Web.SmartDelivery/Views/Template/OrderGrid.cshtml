@@ -1,0 +1,32 @@
+﻿@using Tesco.Com.Web.SmartDelivery.Resources
+@{
+    ViewBag.Title = "";
+    Layout = "";
+}
+<div id="scrollview-container">
+    <div id="scrollview-header">
+        <h1 id="h1Id">
+            @OrderGrid.VanTripHeading
+        </h1>
+    </div>
+    <div id="scrollview-content" class="yui3-scrollview-loading">
+        <table id="tblOrderGrid">
+        </table>
+        <label id='lblOrderId' style='display: none'>@OrderGrid.OrderId</label>
+        <label id='lblSlotId' style='display: none'>@OrderGrid.SlotId</label>
+    </div>
+</div>
+<div id="additional-content">
+    <a href="#/accidentsupport">
+        <img id="accountSupport" src="@Url.Content("~/images/AccedentSupport.png")" alt="logo" />
+    </a>
+    <a href="#">
+        <img src="@Url.Content("~/images/PhoneContact.png")" alt="logo" />
+    </a>
+    <a href="#">
+        <img src="@Url.Content("~/images/Message.png")" alt="logo" />
+    </a>
+    <a href="#">
+        <img src="@Url.Content("~/images/TescoBox.png")" alt="logo" />
+    </a>
+</div>
