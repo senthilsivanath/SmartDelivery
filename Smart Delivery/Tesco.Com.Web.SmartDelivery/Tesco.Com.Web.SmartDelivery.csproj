@@ -2182,9 +2182,10 @@
     <Content Include="Views\Template\AccidentSupport.cshtml" />
     <Content Include="Views\Template\OrderDetail.cshtml" />
     <Content Include="Views\Template\Substitutes.cshtml" />
-    <None Include="Web.config">
+    <Content Include="Web.config">
       <SubType>Designer</SubType>
-    </None>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <SubType>Designer</SubType>
     </None>
