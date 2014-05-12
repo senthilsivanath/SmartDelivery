@@ -19,7 +19,7 @@ namespace Tesco.Com.Web.SmartDelivery
 		protected void Application_Start()
 		{
             log4net.Config.XmlConfigurator.Configure();
-            AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas(); 
             
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
