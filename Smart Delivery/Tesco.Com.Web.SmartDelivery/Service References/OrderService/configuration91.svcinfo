@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="y0Hlo9yg9KUvpul3S8M4aTbwaYg=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="wThEfASBAHd64JUsmDPYz+3Ehe0=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IAppStoreOrder">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IAppStoreOrder" contract="OrderService.IAppStoreOrder" bindingType="basicHttpBinding" address="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc" bindingConfiguration="BasicHttpBinding_IAppStoreOrder">
+    <endpoint name="BasicHttpBinding_IAppStoreOrder" contract="OrderService.IAppStoreOrder" bindingType="basicHttpBinding" address="http://smartmock.apphb.com/AppStoreOrderService.svc" bindingConfiguration="BasicHttpBinding_IAppStoreOrder">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc</serializedValue>
+          <serializedValue>http://smartmock.apphb.com/AppStoreOrderService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

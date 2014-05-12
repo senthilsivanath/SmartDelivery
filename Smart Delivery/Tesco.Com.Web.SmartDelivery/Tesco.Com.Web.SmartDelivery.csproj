@@ -168,6 +168,8 @@
     <Content Include="js\views\Substitutes.js" />
     <Content Include="js\views\NavigationView.js" />
     <Content Include="js\views\OrderGridView.js" />
+    <None Include="Service References\OrderService\AppStoreOrder1.wsdl" />
+    <None Include="Service References\OrderService\AppStoreOrderService1.disco" />
     <Content Include="UnitTest\unitTest.js" />
     <Content Include="UnitTest\testView.htm" />
     <Content Include="js\views\AdminView.js" />
@@ -2124,6 +2126,18 @@
     <Content Include="js\yui_3.12.0\yui\build\yui\yui.js" />
     <None Include="Service References\OrderService\AppStoreOrder.wsdl" />
     <None Include="Service References\OrderService\AppStoreOrderService.disco" />
+    <None Include="Service References\OrderService\AppStoreOrderService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrderService\AppStoreOrderService41.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrderService\AppStoreOrderService42.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\OrderService\AppStoreOrderService43.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\OrderService\configuration91.svcinfo" />
     <None Include="Service References\OrderService\configuration.svcinfo" />
     <None Include="Service References\OrderService\Reference.svcmap">

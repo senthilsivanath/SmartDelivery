@@ -18,15 +18,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://smartmock.apphb.com/AppStoreOrderService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AppStoreOrderService.disco" MetadataType="Disco" ID="030933ba-8d24-4920-b199-8d0cdb454357" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?disco" />
-    <MetadataFile FileName="AppStoreOrder.wsdl" MetadataType="Wsdl" ID="a160edca-8a3f-4fc9-b726-76ad2b67f8a0" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?wsdl" />
-    <MetadataFile FileName="AppStoreOrderService.xsd" MetadataType="Schema" ID="bbf7f2d4-f04e-452a-a1ee-592b99d4503d" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd3" />
-    <MetadataFile FileName="AppStoreOrderService1.xsd" MetadataType="Schema" ID="5330d9fd-7421-44f3-9136-64837002560f" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd2" />
-    <MetadataFile FileName="AppStoreOrderService2.xsd" MetadataType="Schema" ID="96157f4b-4c78-4f9b-8f9a-9b8723af08e1" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd1" />
-    <MetadataFile FileName="AppStoreOrderService3.xsd" MetadataType="Schema" ID="bb691bf9-2c38-4bd0-9e04-cf6d4e4c3fb5" SourceId="1" SourceUrl="http://ukdev66cexfw01v/MockOrderService/AppStoreOrderService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AppStoreOrderService1.disco" MetadataType="Disco" ID="c35374ad-ff43-4890-bf02-b42caedc181b" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?disco" />
+    <MetadataFile FileName="AppStoreOrderService4.xsd" MetadataType="Schema" ID="3e537c3a-863f-41f4-9357-5e992c12cd2e" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AppStoreOrderService41.xsd" MetadataType="Schema" ID="ece1066b-f8cc-4fb0-8d32-b1030ca8bfea" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AppStoreOrderService42.xsd" MetadataType="Schema" ID="f3829ebb-e4bd-4c91-b23a-fb80a7f4b09d" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AppStoreOrderService43.xsd" MetadataType="Schema" ID="2446c845-be42-4fe7-9055-6ad1b4167828" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AppStoreOrder1.wsdl" MetadataType="Wsdl" ID="065786c2-3d11-4649-bc89-9abedd8e4a07" SourceId="1" SourceUrl="http://smartmock.apphb.com/AppStoreOrderService.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
