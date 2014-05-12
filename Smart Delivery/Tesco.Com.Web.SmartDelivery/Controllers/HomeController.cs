@@ -46,7 +46,10 @@ namespace Tesco.Com.Web.SmartDelivery.Controllers
             var responseText = string.Empty;
 
             string transportServiceURL = ConfigurationManager.AppSettings["transportServiceURL"];
-            transportServiceURL += "/" + DateTime.Now.ToString("yyyy-MM-dd") + "/" + storeId + "/?filter=VanTripId:" + vanTripId;
+            //transportServiceURL += "/" + DateTime.Now.ToString("yyyy-MM-dd") + "/" + storeId + "/?filter=VanTripId:" + vanTripId;
+
+            // Hard coding for demo
+            transportServiceURL += "/" + "2013-04-18" + "/" + storeId + "/?filter=VanTripId:" + vanTripId;
 
             var httpWebRequest = WebRequest.Create(transportServiceURL) as HttpWebRequest;
             httpWebRequest.ContentType = "application/json";
